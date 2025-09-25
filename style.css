@@ -21,7 +21,7 @@ body{
 
 @font-face {
     font-family: Olympic;
-    src: url(Olympic.ttf), format(truetype);
+    src: url("Olympic.ttf"), format(truetype);
 }
 
 header{
@@ -30,12 +30,12 @@ header{
 }
 
 #h1-principal{
-    /* font-style: italic; */
-    /* font-weight: normal; */
-    font-size:;
-    /* font-family: Olympic; */
+    /* font-style:*/
+    /* font-weight:*/
+    /* font-size:*/
+    /* font-family:*/
     /* ordem exata de shorthand */
-    /* text-align: center; */
+
     background-image: linear-gradient(to right,#6DA3CF,#3e48503c);
     margin: 10px -15px 5px -15px; 
     padding: 5px;
@@ -167,7 +167,7 @@ img{
     transform: translateY(0px);
     }
     50%{
-    transform: translateY(-120px);
+    transform: translateY(-60px);
     }
 }
 
