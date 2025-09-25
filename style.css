@@ -117,8 +117,6 @@ section{
 }
 
 iframe{
-    width: 201px;
-    height: 503px;
     margin-top: 150px;
     animation: flutuacao 10s ease-in-out infinite;
     
