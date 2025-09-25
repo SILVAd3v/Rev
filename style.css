@@ -114,7 +114,9 @@ section{
 
 iframe{
     margin-top: 150px;
-    animation: flutuacao 10s ease-in-out infinite; 
+    animation: flutuacao 10s ease-in-out infinite;
+    padding: 1px 15px 15px 15px; 
+
 }
 .video > iframe{
     position: absolute;
