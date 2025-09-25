@@ -38,7 +38,7 @@ header{
 
     background-image: linear-gradient(to right,#6DA3CF,#3e48503c);
     margin: 10px -15px 5px -15px; 
-    padding: 5px;
+    padding: 10px;
     border-top-right-radius: 20px;
 }
 
@@ -108,7 +108,7 @@ section{
 }
 
 .video{
-    padding-bottom: 53%;
+    padding-bottom: 60%;
     position: relative;
 }
 
@@ -118,8 +118,8 @@ iframe{
 }
 .video > iframe{
     position: absolute;
-    top: 10%; 
-    left: 10%; 
+    top: 5%; 
+    left: 5%; 
     width: 70%;
     height: 70%;
     border-top-right-radius: 25px;
