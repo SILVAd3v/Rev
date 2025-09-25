@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -15,7 +18,7 @@
 body{
     background-image: linear-gradient(to bottom,#6DA3CF,#3e48503c);
     background-attachment: fixed;
-    margin: 50px;
+    
     position: relative;
 }
 
@@ -110,9 +113,12 @@ section{
 .video{
     padding-bottom: 55%;
     position: relative;
+
 }
 
 iframe{
+    width: 201px;
+    height: 503px;
     margin-top: 150px;
     animation: flutuacao 10s ease-in-out infinite;
     
@@ -120,9 +126,9 @@ iframe{
 .video > iframe{
     position: absolute;
     top: 5%; 
-    left: 5%; 
-    width: 90%;
-    height: 90%;
+    left: 12%; 
+    width: 73%;
+    height: 69%;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
