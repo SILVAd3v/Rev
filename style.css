@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 :root{
@@ -18,8 +15,9 @@
 body{
     background-image: linear-gradient(to bottom,#6DA3CF,#3e48503c);
     background-attachment: fixed;
-    
     position: relative;
+    margin: 0px;
+
 }
 
 @font-face {
@@ -29,7 +27,8 @@ body{
 
 header{
    background-color: rgba(255, 255, 255, 0.509);
-   margin: 0px -50px 0px -50px
+   margin: 50px -0px 50px -0px;
+   padding: 10px;
 }
 
 #h1-principal{
@@ -113,7 +112,6 @@ section{
 .video{
     padding-bottom: 55%;
     position: relative;
-
 }
 
 iframe{
@@ -215,6 +213,7 @@ label{
 input{
     padding: 5px;
     background-color: rgba(128, 128, 128, 0.261);
+    width: 25%;
 }
 
 form{
@@ -235,10 +234,10 @@ form > button{
 footer{
     font-weight: lighter;
     background-color: rgba(255, 255, 255, 0.738);
-    margin: -50px;
-    margin-top: 50px;
+    margin: -0px;
+    margin-top: 55px;
     padding: 5px;
-    border-top-right-radius: 100px;
+    /* border-top-right-radius: 100px; */
 }
 
 footer > a{
