@@ -17,7 +17,6 @@ body{
     background-attachment: fixed;
     position: relative;
     margin: 0px;
-
 }
 
 @font-face {
@@ -59,6 +58,7 @@ main{
     margin: auto;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px ;
 }
 
 p{
@@ -66,8 +66,8 @@ p{
 }
 
 p > a:hover{
-font-size: 2em;
-transition-duration: 1s;
+    font-size: 2em;
+    transition-duration: 1s;
 }
 
 .p-esp{
@@ -84,7 +84,7 @@ a{
 }
 
 a:hover{
-color: var(--cor2);
+    color: var(--cor2);
 }
 
 nav > a{
@@ -94,6 +94,7 @@ nav > a{
     color: black;
     font-weight: bold;
 }
+
 nav > a:hover{
     color: white;
     background-color: var(--cor5);
@@ -101,7 +102,7 @@ nav > a:hover{
     /* border-bottom-left-radius: 15px;
     border-top-right-radius: 15px; */
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 section{
@@ -135,7 +136,8 @@ article{
     width: 70%;
     margin: auto;
     border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;    
 }
 
 aside{
@@ -153,6 +155,7 @@ div{
     margin: auto;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 picture{
@@ -212,7 +215,6 @@ label{
 input{
     padding: 5px;
     background-color: rgba(128, 128, 128, 0.261);
-    width: 25%;
 }
 
 form{
@@ -224,6 +226,7 @@ form{
     margin: auto;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    border-top-right-radius: 15px;
 }
 
 form > button{
@@ -236,7 +239,6 @@ footer{
     margin: -0px;
     margin-top: 55px;
     padding: 5px;
-    /* border-top-right-radius: 100px; */
 }
 
 footer > a{
