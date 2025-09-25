@@ -108,22 +108,21 @@ section{
 }
 
 .video{
-    padding-bottom: 60%;
+    padding-bottom: 55%;
     position: relative;
 }
 
 iframe{
     margin-top: 150px;
     animation: flutuacao 10s ease-in-out infinite;
-    padding: 1px 15px 15px 30px; 
-
+    
 }
 .video > iframe{
     position: absolute;
-    top: 5%; 
-    left: 5%; 
-    width: 70%;
-    height: 70%;
+    top: 25%; 
+    left: 25%; 
+    width: 50%;
+    height: 50%;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px; 
 }
