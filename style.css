@@ -121,8 +121,8 @@ iframe{
     position: absolute;
     top: 5%; 
     left: 5%; 
-    width: 90%;
-    height: 90%;
+    width: 50%;
+    height: 50%;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px; 
 }
